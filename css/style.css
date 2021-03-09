@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header-wrapper{
+    width: 100%;
+    height: 78vh;
+    background: #11113ba1;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#header{
+    background: url(../img/bkg.jpg) no-repeat center / cover;
+    width: 100%;
+    height: 78vh;
+    background-color: red;
+    opacity: .7;
+}
+#nav{
+    width: 71.6%;
+    margin: auto;
+}
+.letters{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.753);
+    
+}
+.all{
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+.projection{
+    font-size: 15px;
+    font-weight: 600;
+}
+.li{
+    margin-left: 16px;   
+    font-size: 16px;
+    font-weight: 600;
+}
+.proj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    color: white;
+    font-size: 52px;
+    font-weight: 400;
+}
+.smths{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+.inn1, .inn3, .inn5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fas{
+    font-size: 36px;
+    color: #1fc557;
+}
+.aliquam{
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+}
+.amet{
+    font-size: 14px;
+    color: rgb(116, 116, 116);
+}
+.inn{
+    width: 0px; 
+    height: 100px;
+    border: 1px solid rgba(128, 128, 128, 0.753);
+    margin: 0 100px;
+}
+.get{
+    display: block;
+    width: 175px;
+    height: 45px;
+    border: 3px solid #1fc557;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 5% auto;
+    color: #1fc557;
+    cursor: pointer;
+    border-radius: 50px;
+    transition-duration: .4s;
+    background: transparent;
+}
+.get:hover{
+    background: #1fc55627;
+    transition: .4s;
+}
+#photos{
+    padding: 50px 0;
+}
+.both{
+    width: 57.2%;
+    margin: auto;
+}
+.sal{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.sal1, .sal2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.round{
+    border-radius: 50%;
+}
+.cl{
+    font-size: 28px;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(80, 80, 80);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.cla{
+    text-align: center;
+    text-size-adjust: 40px;
+    font-size: 15px;
+    line-height: 25px;
+    width: 400px;
+    height: 100%;
+    color: grey;
+}
+.clas{
+    text-align: center;
+    text-size-adjust: 40px;
+    font-size: 15px;
+    line-height: 25px;
+    width: 380px;
+    height: 100%;
+    color: grey;
+}
+.btn{
+    display: block;
+    width: 175px;
+    height: 45px;
+    border: 3px solid #1fc557;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 5% auto;
+    color: #1fc557;
+    cursor: pointer;
+    border-radius: 50px;
+    transition-duration: .4s;
+    background: transparent;
+    margin-top: 40px;
+}
+.btn:hover{
+    background: #1fc55627;
+    transition: .4s;
+}
